@@ -1,0 +1,10 @@
+class PrintDates{
+public void setDates(int year,int month,int date){
+System.out.println("Today is:"+year+"."+month+"."+date+".");
+}
+public static void main(String args[]){
+PrintDates p=new PrintDates();
+ p.setDates(2017,01,02);
+}
+
+}
